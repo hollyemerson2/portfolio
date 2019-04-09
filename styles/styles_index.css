@@ -1,0 +1,326 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+body {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: 
+
+}
+
+nav {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 9pt;
+    letter-spacing: 2px;
+
+}
+
+footer {
+	text-align: center;
+	align-items: horizontal;
+	font-size: 8pt;
+	letter-spacing: 1.5px;
+}
+
+header {
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+
+nav a:link {
+    color: white;
+}
+
+/* visited link */
+nav a:visited {
+    color: white;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* selected link */
+nav a:active {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+footer a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+footer a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* selected link */
+footer a:active {
+    text-decoration: underline;
+    color: black;
+}
+
+
+#wrapper {
+	width: 100%;
+
+}
+
+.background_image {
+	background: url("images2/home/flower.jpg");
+}
+
+body.background_image {
+	background-size: cover;
+}
+
+
+
+
+/*----------NAV----------*/
+
+.nav_bar {
+	position: relative;
+	width: 100%;
+}
+
+.nav_logo {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 0;
+
+}
+
+.menu {
+	position: absolute;
+	right: 0;
+
+}
+
+.menu_item {
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 15px;
+	padding-right: 5px;
+	margin-top: 20px;
+}
+
+.menu_item a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+/*---------HEADER----------*/
+
+
+
+.header_line {
+	padding-left: 50%;
+}
+
+.header_text {
+	font-weight: bold;
+	font-size: 35pt;
+}
+
+.intro {
+	background-color: rgba(255,255,255,.8);
+	height: 530px;
+	width: 100%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 10px;
+
+}
+
+.intro_vertical {
+	font-size: 10pt;
+	transform: rotate(90deg);
+	transform-origin: top center;
+	padding-left: 300px;
+
+}
+
+.intro_name {
+	font-size: 60pt;
+	letter-spacing: 1px;
+	margin-top: 270px;
+}
+
+
+
+
+
+
+
+/*----------MAIN----------*/
+
+.direction {
+	background-color: rgba(255,255,255,.8);
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 40px;
+	padding: 135px;
+}
+
+.direction>div {
+	position: relative;
+	padding: 43px;
+}
+
+.direction div img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+
+.outline {
+	height: 80%;
+	width: 80%;
+	border: 3px solid white;
+	position: absolute;
+	left: -.1%;
+	top: -.1%;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 1;
+}
+
+/*.outline {
+	height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    position: absolute;
+    left: -10%;
+    top: -10%;
+    z-index: 1;
+}*/
+
+}
+
+.direction_button {
+	letter-spacing: .8pt;
+	font-size: 10pt;
+	
+}
+
+main a{
+	margin-top: 10px;
+}
+
+main a:link {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    padding-right: 45px;
+}
+
+/* visited link */
+main a:visited {
+    color: black;
+    text-decoration: none;
+    right: 0;
+}
+
+/* mouse over link */
+main a:hover {
+    color: black;
+    text-decoration: underline;
+    right: 0;
+}
+
+
+
+
+
+
+/*---------FOOTER---------*/
+
+.footer_content {
+	display: inline-block;
+	padding: 30px;
+	padding-bottom: 0px;
+
+}
+
+.footer_content {
+	background-color: rgba(255,255,255,.8);
+	display: flex;
+	padding-left: 35%;
+	padding-right: 35%;
+	padding-top: 50px;
+	margin-bottom: 30px;
+}
+
+.footer_content_logo {
+	height: 35px;
+	width: 35px;
+	margin-top: 8px;
+}
+
+.footer_content_social {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	margin-top: 17px;
+	
+}
+
+.footer_content_text {
+	display: inline-block;
+	color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+.footer_item {
+	flex: 1;
+	line-height: 54px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+}
+
